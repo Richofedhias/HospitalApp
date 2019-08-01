@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_login_full"
+    android:layout_height="match_parent"
+    tools:context=".activity.registration.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iV_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:srcCompat="@drawable/logo_full" />
+
+        <EditText
+            android:id="@+id/etRegis_Nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iV_regis"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/bg_et_username"
+            android:ems="10"
+            android:hint="Nama"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+
+        <EditText
+            android:id="@+id/etRegis_NoTelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etRegis_Nama"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/bg_et_username"
+            android:ems="10"
+            android:hint="No. Telp"
+            android:inputType="textVisiblePassword|phone"
+            android:padding="8dp"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+
+        <EditText
+            android:id="@+id/etRegis_NoKTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etRegis_NoTelp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/bg_et_username"
+            android:ems="10"
+            android:hint="No. KTP"
+            android:inputType="textVisiblePassword|number"
+            android:padding="8dp"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+
+        <Button
+            android:id="@+id/btn_Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etRegis_NoKTP"
+            android:background="@drawable/bg_btn_login"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Register"
+            android:elevation="6dp"
+            android:textColor="#FFF" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

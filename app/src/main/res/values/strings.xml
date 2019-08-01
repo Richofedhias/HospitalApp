@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">HospitalApps</string>
+    <string name="title_activity_beranda">BerandaActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="jenisKelamin">
+        <item>LAKI-LAKI</item>
+        <item>PEREMPUAN</item>
+    </string-array>
+
+    <string-array name="layanan">
+        <item>POLI ANAK</item>
+        <item>POLI ANDROLOGI</item>
+        <item>POLI BEDAH UMUM</item>
+        <item>POLI GIGI</item>
+        <item>POLI INTERNIST / PENYAKIT DALAM</item>
+        <item>POLI OBGYN</item>
+    </string-array>
+
+    <string-array name="jenisLayanan">
+        <item>UMUM</item>
+        <item>CATO</item>
+    </string-array>
+
+    <string-array name="asuransi">
+        <item>BPJS Kesehatan</item>
+        <item>AXA</item>
+        <item>Prudential</item>
+        <item>BNI Life</item>
+        <item>AIA</item>
+        <item>Simas Sehat</item>
+        <item>Jamkesda</item>
+        <item>BPJS Ketenagakerjaan</item>
+        <item>Krishna Life</item>
+        <item>Manulife</item>
+        <item>Mega Insurance</item>
+        <item>Bringin Life</item>
+        <item>Allianz</item>
+        <item>Jiwasraya</item>
+        <item>BumiPutera 1912</item>
+        <item>Avrist</item>
+    </string-array>
+
+    <string name="information">Silahkan melakukan Registrasi Ulang ke Rumah Sakit dengan membawa berkas-berkas seperti berikut :\n\n- KTP\n- BPJS</string>
+</resources>

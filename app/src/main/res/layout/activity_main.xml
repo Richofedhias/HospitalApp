@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login_full"
+    tools:context=".activity.main.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgView_logo"
+            android:layout_width="55dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_1" />
+
+        <ImageView
+            android:id="@+id/logo_2"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_toEndOf="@+id/imgView_logo"
+            android:layout_toRightOf="@+id/imgView_logo"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_2"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/rellay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgView_logo"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_UserLama"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#0C5E19"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:text="Pengguna Lama"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_UserBaru"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/btn_UserLama"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#0C5E19"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:text="Pengguna Baru"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
